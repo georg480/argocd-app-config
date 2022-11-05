@@ -36,7 +36,7 @@ Speichert alle Änderungen mit einer persönlichen Nachricht.
 Hier empfiehlt es sich, zu Beginn eine Versionsnummer anzugeben.
 git pull <Branch>
 Holt alle Änderungen von der Ablage (Repository) und passt die eigenen Dateien entsprechend an.
-git push <Branch>
+git push origin main
 Alle neuen Commits werden zur Ablage (Repository) hochgeladen.
 git revert
 Setzt den aktuellen Branch auf einen bestimmten Commit (Version) zurück.
