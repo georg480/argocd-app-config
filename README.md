@@ -20,7 +20,9 @@ kubectl -n argocd get secret argocd-initial-admin-secret -o jsonpath="{.data.pas
 # cd argocd-app-config/
 # kubectl apply -f application.yaml
 # nur Änderungen von github runter laden
-# git push
+# git pull
+
+
 
 GIT-Befehle
 git init
